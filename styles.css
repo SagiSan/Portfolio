@@ -4,26 +4,43 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
 }
+
 
 #navbar {
     color: #fff !important;
+    font-size: 22px;
 }
 
 .navbar {
     border-radius: 0px !important;
-    border: 1px solid #1976D2 !important;
+    border: 1px solid #2574A9 !important;
+    margin-bottom: 0px !important;
 }
 
 
 #navbar-collapse {
-    background-color: #1976D2;
+    background-color: #2574A9;
 }
 
 .navbar-default .navbar-brand {
     color: #fff !important;
+    font-size: 24px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #fff !important;
+}
+
+#wallpaper {
+    background-image: url("http://pre09.deviantart.net/cde5/th/pre/f/2014/210/f/5/web_developer_background_by_lkhobby-d7ss2p3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    text-align: center;
 }
