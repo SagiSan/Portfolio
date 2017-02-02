@@ -7,12 +7,12 @@ html, body {
 }
 
 #navbar {
-    border: none;
     color: #fff !important;
 }
 
 .navbar {
     border-radius: 0px !important;
+    border: 1px solid #1976D2 !important;
 }
 
 
