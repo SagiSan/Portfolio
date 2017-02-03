@@ -62,18 +62,45 @@ html, body {
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    font-size: 42px;
+    font-size: 2em;
+}
+
+#navigation nav {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+#navigation span {
+    font-size: 2em;
 }
 
 #navigation a {
     color: #fff;
     text-decoration: none;
+    padding: 0px 20px;
+    
 }
 
+#navigation ul {
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+
 #navigation ul li {
+    width:100%;
     list-style: none;
     display: inline-block;
-    margin: 0px 10px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+#navigation ul li:hover {
+    background-color: rgba(0,255,255,0.3);
 }
 
 
@@ -116,3 +143,23 @@ html, body {
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }*/
+
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+         #navigation {
+        font-size: 1.5em; /* 0.8x default size */
+        }
+        #navigation a {
+            padding: 0px 10px;
+        }
+    }
