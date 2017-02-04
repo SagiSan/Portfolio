@@ -15,6 +15,10 @@ html, body {
     text-transform: uppercase;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(0, 215, 255) !important;
+}
+
 .navbar {
     border-radius: 0px !important;
     margin-bottom: 0px !important;
@@ -47,7 +51,7 @@ html, body {
 
 #wallpaper {
     /*background: linear-gradient(rgba(33,33,33,0.8),rgba(33,33,33,0.8));*/
-    background-image: url("http://www.capstonelabs.com/images/drink-864958_1920.jpg");
+    background-image: url("http://experiencedwebdesign.com/wp-content/uploads/2016/08/experienced-web-design-we-build-things-hero-image-final.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -98,7 +102,7 @@ html, body {
     display: inline-block;
     background-color: rgba(0,255,255,0.4);
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 15px 30px;
 }
 
 #navigation ul li:hover {
@@ -166,5 +170,8 @@ html, body {
         }
         #navigation a {
             padding: 0px 10px;
+        }
+        #navigation ul li {
+            padding: 10px 15px;
         }
     }
