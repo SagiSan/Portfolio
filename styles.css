@@ -11,7 +11,8 @@ html, body {
 
 #navbar {
     color: #999 !important;
-    font-size: 22px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .navbar {
@@ -45,7 +46,8 @@ html, body {
 }
 
 #wallpaper {
-    background-image: url("http://pre09.deviantart.net/cde5/th/pre/f/2014/210/f/5/web_developer_background_by_lkhobby-d7ss2p3.jpg");
+    /*background: linear-gradient(rgba(33,33,33,0.8),rgba(33,33,33,0.8));*/
+    background-image: url("http://www.capstonelabs.com/images/drink-864958_1920.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -94,13 +96,13 @@ html, body {
     width:100%;
     list-style: none;
     display: inline-block;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(0,255,255,0.4);
     border-radius: 10px;
     padding: 10px 15px;
 }
 
 #navigation ul li:hover {
-    background-color: rgba(0,255,255,0.3);
+    background-color: rgba(0,255,255,0.6);
 }
 
 
@@ -129,6 +131,9 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: normal;
+    font-size: 48px;
+    color: #666;
 }
 
 #skills {
@@ -157,7 +162,7 @@ html, body {
     }
 @media all and (max-width: 500px) { /* screen size until 500px */
          #navigation {
-        font-size: 1.5em; /* 0.8x default size */
+        font-size: 1.2em; /* 0.8x default size */
         }
         #navigation a {
             padding: 0px 10px;
