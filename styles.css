@@ -6,6 +6,7 @@ html, body {
     padding: 0;
     background-color: #fff !important;
     font-family: 'Lato', sans-serif !important;
+    
 }
 
 
@@ -119,6 +120,11 @@ html, body {
     margin: 0px 20px;
 }
 
+#About span {
+     font-weight: bold;
+
+}
+
 .aboutme {
     padding-top: 80px;
     padding-bottom: 20px;
@@ -140,8 +146,12 @@ html, body {
     color: #666;
 }
 
-#skills {
+#skills p {
+    color: red;
+}
 
+.skill {
+    color:#333;
 }
 
 
