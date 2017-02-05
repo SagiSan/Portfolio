@@ -52,10 +52,13 @@ html, body {
 
 #wallpaper {
     /*background: linear-gradient(rgba(33,33,33,0.8),rgba(33,33,33,0.8));*/
-    background-image: url("http://experiencedwebdesign.com/wp-content/uploads/2016/08/experienced-web-design-we-build-things-hero-image-final.jpg");
+    /*background-image: url("http://experiencedwebdesign.com/wp-content/uploads/2016/08/experienced-web-design-we-build-things-hero-image-final.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-position: center center;*/
+    background: linear-gradient(to bottom right, rgba(255,55,55,0.2), rgba(60,179,113,0.2)), url('http://experiencedwebdesign.com/wp-content/uploads/2016/08/experienced-web-design-we-build-things-hero-image-final.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -159,6 +162,11 @@ html, body {
     width: 100%;
     height: 33%;
     background-color: #444;    
+}
+
+
+.thumbnail {
+    text-align: center;
 }
 
 
