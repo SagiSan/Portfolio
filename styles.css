@@ -190,7 +190,7 @@ background-repeat: no-repeat;
 .read-more-target {
   opacity: 0;
   max-height: 0;
-  font-size: 0;
+  font-size: 0; 
   color: #333 !important;
   transition: .25s ease;
 }
@@ -218,6 +218,10 @@ background-repeat: no-repeat;
   line-height: 2;
   border: 1px solid #ddd;
   border-radius: .25em;
+}
+
+.thumbnail img {
+    object-fit: contain !important;
 }
 
 /*show more - show less - end */
