@@ -174,7 +174,11 @@ background-repeat: no-repeat;
 .project-name {
     font-size: 24px;
     font-weight: bold;
+    color: #2574A9;
+    text-shadow: 1px 1px 1px #000;
 }
+
+
 
 /*show more - show less*/
 
