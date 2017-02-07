@@ -229,6 +229,15 @@ background-repeat: no-repeat;
     text-align: center;
 }
 
+#cert-holder  {
+    border: none !important;
+}
+
+#cert {
+    width: 75% !important;
+    height: 60% !important;
+}
+
 /*show more - show less - end */
 
 
