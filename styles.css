@@ -220,8 +220,13 @@ background-repeat: no-repeat;
   border-radius: .25em;
 }
 
-.thumbnail img {
+/*.thumbnail img {
     object-fit: contain !important;
+}*/
+
+
+.projects {
+    text-align: center;
 }
 
 /*show more - show less - end */
