@@ -238,6 +238,18 @@ background-repeat: no-repeat;
     height: 60% !important;
 }
 
+#socials {
+    text-align: left !important;
+}
+
+
+.list-unstyled li {
+    text-align: center !important;
+}
+
+.fa  {
+    font-size: 42px !important;
+}
 /*show more - show less - end */
 
 
