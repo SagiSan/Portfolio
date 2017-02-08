@@ -1,4 +1,10 @@
 
+   function mail() {
+        window.open('mailto:samir.sagi@gmail.com?subject=User&body=message');
+
+    }
+
+
 (function ($) {
   $(document).ready(function(){
 
@@ -34,6 +40,11 @@
 	        window.location.hash = target;
 	    });
 	});
+
+
+//  mail
+
+ 
 
 });
   }(jQuery));
