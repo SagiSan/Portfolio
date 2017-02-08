@@ -12,6 +12,20 @@ a {
     text-decoration: none !important;
 }
 
+#name {
+    width: 100% !important;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 62px !important;
+}
+
+#name h1 {
+    font-size: 56px !important;
+}
+
 #navbar {
     color: #999 !important;
     font-size: 18px;
