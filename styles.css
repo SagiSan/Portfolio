@@ -220,10 +220,7 @@ background-repeat: no-repeat;
   border-radius: .25em;
 }
 
-/*.thumbnail img {
-    object-fit: contain !important;
-}*/
-
+/*show more - show less - end */
 
 .projects {
     text-align: center;
@@ -250,10 +247,18 @@ background-repeat: no-repeat;
 .fa  {
     font-size: 42px !important;
 }
-/*show more - show less - end */
 
+#github {
+    color: #333;
+}
 
+#fcc {
+    color: rgba(0, 100, 0, 1) !important;
+}
 
+#codepen {
+    color: #222;
+}
 
 /*
 * {
