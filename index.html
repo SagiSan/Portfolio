@@ -26,16 +26,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+
+
     <!--social media icons-->
     <script src="https://use.fontawesome.com/4dfe2a3729.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
-    
+
     <!--navigation bar-->
     <div id="navbar">
-        
+
         <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
 
             <div class="navbar-header">
@@ -63,7 +66,7 @@
     <!--wallpaper-->
 
     <div id="wallpaper">
-                <div id="name" class="container row col-md-12">
+        <div id="name" class="container row col-md-12">
             <h1>Samir Sagi Sakanovic</h1>
         </div>
 
@@ -133,9 +136,12 @@
 
         <div class="row">
             <div class="container">
-                <p>Through <strong>learning</strong> how to program, I've developed a passion for it. It is what keeps me going further and learning more. With that <strong>passion</strong> and <strong>interest</strong> for programming as mine, I believe <strong>everything</strong> can be learned and accomplished. Especially as I am <strong>willing</strong> to put in all the necessary <strong>hard work</strong>.</p>
+                <p>Through <strong>learning</strong> how to program, I've developed a passion for it. It is what keeps me going
+                    further and learning more. With that <strong>passion</strong> and <strong>interest</strong> for programming
+                    as mine, I believe <strong>everything</strong> can be learned and accomplished. Especially as I am <strong>willing</strong>                    to put in all the necessary <strong>hard work</strong>.</p>
                 <br>
-                <p>People can always <strong>rely</strong> on me to finish my work in time and to <strong>help out</strong> whenever necessary. That is why I <strong>can</strong> work very well with <strong>others</strong> and in <strong>teams</strong>.</p>
+                <p>People can always <strong>rely</strong> on me to finish my work in time and to <strong>help out</strong>                    whenever necessary. That is why I <strong>can</strong> work very well with <strong>others</strong> and
+                    in <strong>teams</strong>.</p>
                 <br><br>
             </div>
         </div>
@@ -268,15 +274,15 @@
             <div class="container">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <br>
-                    <form action="" method="POST">
+                    <form id="mailform">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="InputEmail">Email address</label>
+                            <input type="email" class="form-control" name="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleTextarea">Message</label>
-                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            <label for="Textarea">Message</label>
+                            <textarea class="form-control" name="text" id="Textarea" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -298,8 +304,6 @@
             </div>
         </div>
     </section>
-
-
 
 
     <script src="scripts.js"></script>
