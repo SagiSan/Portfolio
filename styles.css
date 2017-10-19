@@ -15,7 +15,7 @@ a {
 #name {
     width: 100% !important;
     position: absolute;
-    top: 300px;
+    top: 30%;
     left: 0;
     margin: 0 auto;
     color: #fff;
@@ -71,7 +71,7 @@ a {
     /*background-image: url("http://experiencedwebdesign.com/wp-content/uploads/2016/08/experienced-web-design-we-build-things-hero-image-final.jpg");
     background-repeat: no-repeat;
     background-position: center center;*/
-    background: linear-gradient(to bottom right, rgba(255,55,55,0.2), rgba(60,179,113,0.2)), url('http://experiencedwebdesign.com/wp-content/uploads/2016/08/experienced-web-design-we-build-things-hero-image-final.jpg');
+    background: linear-gradient(to bottom right, rgba(255,55,55,0.2), rgba(60,179,113,0.2)), url('/laptop.jpg');
 background-size: cover;
 background-repeat: no-repeat;
     /*background-size: 100% 100%;*/
